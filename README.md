@@ -1,2 +1,2 @@
 # Netology
- my courses
+Frontend development course
