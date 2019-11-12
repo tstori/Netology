@@ -509,6 +509,9 @@ button {
 }
 
 .twitter-icon {
+  width: 20px;
+  height: 20px;
+
   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
 }
 
