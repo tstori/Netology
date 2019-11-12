@@ -474,9 +474,9 @@ button {
 
 .footer-social {
   width: 1200px;
+  height: 83px;
   max-width: 100%;
   margin: 70px auto 70px;
-  padding: 30px 15px;
   
   background-color: #f7f4f4;
   
@@ -506,6 +506,10 @@ button {
 
 .icon {
   width: 20px;
+}
+
+.twitter-icon {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
 }
 
 .copy-right {
