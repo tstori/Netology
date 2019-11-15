@@ -474,6 +474,7 @@ button {
 
 .footer-social {
   display: flex;
+  justify-content: center;
   width: 1200px;
   height: 83px;
   max-width: 100%;
@@ -482,36 +483,25 @@ button {
   background-color: #f7f4f4;
 }
 
-.footer-social .container {
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.center {
-  display: block;
-  
-  text-align: center;
-}
-
-.social {
-  display: flex;
-  margin: auto;
-}
-
-.social-link:nth-child(n+2) {
-  padding-left: 28px;
-}
-
 .icon {
   width: 20px;
+  height: 20px;
+  margin: 31px 30px 33px;
+
+  background-repeat: no-repeat;
+  background-size: 20px;
 }
 
 .twitter-icon {
-  width: 20px;
-  height: 20px;
-
   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+}
+
+.pin-icon {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+}
+
+.facebook-icon {
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg)
 }
 
 .copy-right {
