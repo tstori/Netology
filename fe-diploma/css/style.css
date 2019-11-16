@@ -84,6 +84,14 @@ ul {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+
+  width: 1px;
+  height: 1px;
+}
+
 /* Page header */
 
 .header {
@@ -479,6 +487,7 @@ button {
   height: 83px;
   max-width: 100%;
   margin: 70px auto 70px;
+  padding: 31px 0;
   
   background-color: #f7f4f4;
 }
@@ -492,28 +501,25 @@ button {
   background-size: 20px;
 }
 
-  .twitter-icon {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
-  }
-    .twitter-icon::before {
-      content: "Twitter";
+    .twitter-icon {
+      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
     }
 
-  .pinterest-icon {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
-  }
+    .pinterest-icon {
+      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+    }
 
-  .facebook-icon {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg)
-  }
+    .facebook-icon {
+      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg)
+    }
 
-  .instagram-icon {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
-  }
+    .instagram-icon {
+      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+    }
 
-  .tumblr-icon {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
-  }
+    .tumblr-icon {
+      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+    }
 
 .copy-right {
   display: block;
