@@ -481,53 +481,50 @@ button {
 */
 
 .social-networks {
-  display: flex;
-  justify-content: center;
   width: 1200px;
   height: 83px;
   max-width: 100%;
   margin: 70px auto 70px;
-  padding: 31px 0;
   
   background-color: #f7f4f4;
 }
-  .socials-link {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-
-    background-repeat: no-repeat;
-    background-size: 20px;
+  .socials {
+    display: flex;
+    justify-content: center;
   }
 
-.icon {
-  width: 20px;
-  height: 20px;
-  margin: 31px 30px 33px;
-
-  background-repeat: no-repeat;
-  background-size: 20px;
-}
-
-    .socials-link-twitter {
-      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+    .socials-item {
+      margin: 31px 30px 33px;
     }
 
-    .pinterest-icon {
-      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
-    }
+      .socials-link {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
 
-    .facebook-icon {
-      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg)
-    }
+        background-repeat: no-repeat;
+        background-size: 20px;
+      }
+        
+      .socials-link-twitter {
+        background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+      }
 
-    .instagram-icon {
-      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
-    }
+      .socials-link-pinterest {
+        background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+      }
 
-    .tumblr-icon {
-      background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
-    }
+      .socials-link-facebook {
+        background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg)
+      }
+
+      .socials-link-instagram {
+        background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+      }
+
+      .socials-link-tumblr {
+        background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+      }
 
 .copy-right {
   display: block;
