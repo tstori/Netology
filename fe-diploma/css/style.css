@@ -457,16 +457,39 @@ button {
 .tags-board {
   display: flex;
   flex-wrap: wrap;
-}
 
-  .tag-link {
-    margin: 0 5px 6px 0;
-    padding: 7px 15px;
-
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
+  margin: 0;
+  padding: 0;
   }
+
+  .tag {
+    display: flex;
+    height: 100%;
+    margin: 0 5px 6px 0;
+
+    border: 3px solid #f4f3f1;
+  }
+
+  .tag:hover {
+    border: 3px solid #375b90;
+  }
+
+  .tag:last-child {
+    margin: 0;
+
+    border: 3px solid #f4f3f1;
+  }
+
+    .tag-link {
+      padding: 7px 13px;
+
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+        
+      color: #000;
+    }
 
 /* Footer 
    Social icons
