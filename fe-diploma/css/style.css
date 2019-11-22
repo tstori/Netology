@@ -298,17 +298,12 @@ button {
 /* Sidebar */
 
 .sidebar {
-  display: flex;
-  justify-content: left;
-  align-items: end;
-  flex-wrap: wrap;
+  display: block;
   width: 272px;
 }
 
   .sidebar-title {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: block;
     margin-top: 0;
     margin-bottom: 14px;
     
@@ -319,7 +314,7 @@ button {
   }
 
   .sidebar-line-title {
-    display: flex;
+    display: block;
     margin: 0 auto 25px;
     
     width: 66px;
@@ -454,42 +449,81 @@ button {
 
 /* Tags */
 
-.tags-board {
-  display: flex;
-  flex-wrap: wrap;
+.tags-block {
+  margin-bottom: 61px;
+}
 
-  margin: 0;
-  padding: 0;
-  }
-
-  .tag {
+  .tags-board {
     display: flex;
-    height: 100%;
-    margin: 0 5px 6px 0;
+    flex-wrap: wrap;
 
-    border: 3px solid #f4f3f1;
-  }
-
-  .tag:hover {
-    border: 3px solid #375b90;
-  }
-
-  .tag:last-child {
     margin: 0;
+    padding: 0;
+    }
 
-    border: 3px solid #f4f3f1;
+    .tag {
+      height: 100%;
+      margin: 0 5px 6px 0;
+
+      border: 3px solid #f4f3f1;
+    }
+
+    .tag:hover {
+      border: 3px solid #375b90;
+    }
+
+    .tag:last-child {
+      margin: 0;
+
+      border: 3px solid #f4f3f1;
+    }
+
+      .tag-link {
+        display: block;
+        padding: 7px 13px;
+
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+          
+        color: #000;
+      }
+
+/* Categories */
+
+.categories-item {
+  padding: 18px 2px 13px;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+
+  border-bottom: 1px solid #e2e2e3;
+  color: #b59f5b;
+  list-style: none;
+}
+
+  .categories-link{
+    margin-right: 3px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    color: #000;
+    text-decoration: none;
   }
 
-    .tag-link {
-      padding: 7px 13px;
+  .categories-link:hover {
+    color: #375b90;
+  }
 
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-decoration: none;
-        
-      color: #000;
-    }
+  .categories-superscript {
+    font-weight: bold;
+    font-size: 12px;
+
+    color: #b59f5b;
+  }
 
 /* Footer 
    Social icons
