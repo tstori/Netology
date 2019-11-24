@@ -474,8 +474,6 @@ button {
 
     .tag:last-child {
       margin: 0;
-
-      border: 3px solid #f4f3f1;
     }
 
       .tag-link {
