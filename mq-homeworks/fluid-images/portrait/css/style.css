@@ -1,7 +1,8 @@
 .container {
-    width: 1920px;
+    max-width: 1920px;
 }
 
 .poster {
-
+    max-width: 100%;
+    max-height: 90vh;
 }
