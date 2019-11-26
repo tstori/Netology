@@ -1,4 +1,8 @@
-card__contact {
+.card__contact a {
     color: inherit;
     text-decoration: none; 
+}
+
+.card__contact:hover a {
+    color: #595a5a;
 }
