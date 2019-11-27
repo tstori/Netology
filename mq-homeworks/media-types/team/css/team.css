@@ -1,0 +1,13 @@
+  
+.team {
+    padding-top: 30px;
+    min-width: 1024px;
+}
+
+.team__container {
+    display: flex;
+}
+
+.team__item {
+    width: 360px;
+}
