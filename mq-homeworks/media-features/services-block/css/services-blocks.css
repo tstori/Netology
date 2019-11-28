@@ -1,25 +1,35 @@
 .section__header {
-    font-size: 12px;
+    font-size: 20px;
+}
+
+.post {
+    font-size: 15px;
+}
+
+.post__name {
+    margin: auto;
+  }
+
+@media (max-width: 480px) {
+
+    .section__title {
+        font-size: 1em;
+    }
+
+    .post__name {
+        font-size: 1.2em;
+    }
+
 }
 
 @media (min-width: 481px) {
 
     .section__title {
-        font-size: 2em;
+        font-size: 1.2em;
+    }
+
+    .post__name {
+        font-size: 1.4em;
     }
 
 }
-
-@media (max-width: 480px) {
-
-    .section__title {
-        font-size: 1.66em;
-    }
-
-}
-
-  .post__name {
-    margin: auto;
-    
-    font-size: 1.5em;
-  }
