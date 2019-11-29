@@ -1,0 +1,23 @@
+@media (min-width: 769px) {
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+        .product {
+            width: 32%;
+        }
+
+        .product:nth-child(3n+2) {
+            margin: 0 2%;
+        }
+
+
+}
+
+.product__footer {
+    justify-content: space-between;
+    align-items: flex-end;
+}
