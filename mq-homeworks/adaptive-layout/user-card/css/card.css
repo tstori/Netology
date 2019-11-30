@@ -1,0 +1,27 @@
+@media (max-width: 768px), (min-width: 1300px) {
+
+    
+    .profile__preview::before {
+        content: '';
+
+        background-color: #481bae;
+        opacity: 0.7;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1301px) {
+
+    .profile {
+        background-color: #481bae;
+    }
+
+        .profile__preview {
+            width: 140px;
+            height: 140px;
+
+            border: solid 5px #fff;
+            border-radius: 50%;
+        }
+
+}
