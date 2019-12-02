@@ -37,23 +37,6 @@ body {
   color: #fff
 }
 
-h1, h2, h3 {
-  text-transform: uppercase;
-	font-weight: 700;
-}
-
-h1 {
-  font-size: 45px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h3 {
-  font-size: 14px;
-}
-
 input {
   width: 100%;
   
@@ -148,7 +131,7 @@ button {
       line-height: 75px;
       font-size: 45px;
       font-family: 'Open Sans';
-      font-weight: bold;
+      font-weight: 700;
     }
 
 /* Menu */
@@ -253,6 +236,10 @@ button {
           .publication-title {
             margin-top: 0;
             margin-bottom: 36px;
+
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
           }
 
             .publication-link {
@@ -308,7 +295,10 @@ button {
     margin-bottom: 14px;
     
     font-size: 14px;
+    font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
+
 
     color: #000;
   }
@@ -363,6 +353,8 @@ button {
           margin: 0;
 
           font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
         }
 
           .recent-post-link {
