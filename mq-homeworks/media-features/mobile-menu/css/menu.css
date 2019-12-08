@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (min-width: 641px) {
 
     .menu__button {
         display: none;
@@ -10,7 +10,7 @@
 
 }
 
-@media (max-width: 641px) {
+@media (max-width: 640px) {
 
     .menu__list {
         display: none;
