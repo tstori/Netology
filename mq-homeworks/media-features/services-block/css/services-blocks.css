@@ -1,35 +1,33 @@
-.section__header {
-    font-size: 20px;
+.section__title {
+    font-size: 2em;
 }
-
-.post {
-    font-size: 15px;
+  
+.post__name {
+    font-size: 1.5em;
 }
 
 .post__name {
     margin: auto;
-  }
-
-@media (max-width: 480px) {
-
-    .section__title {
-        font-size: 1em;
-    }
-
-    .post__name {
-        font-size: 1.2em;
-    }
-
 }
 
 @media (min-width: 481px) {
 
-    .section__title {
-        font-size: 1.2em;
+    .section__header {
+        font-size: 12px;
     }
 
-    .post__name {
-        font-size: 1.4em;
+    .post {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .section__header {
+        font-size: 10px;
     }
 
+    .post {
+        font-size: 12px;
+    }
 }
