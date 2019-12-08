@@ -1,6 +1,6 @@
 .popup__close {
-    width: 28px;
-    height: 20px;
+    width: 1.4em;
+    height: 1em;
     font-size: 20px;
   
     position: absolute;
@@ -8,27 +8,15 @@
     right: 0;  
   }
 
-.popup__close {
-    width: 1.4em;
-    height: 1em;
-    top: -1.5em;
-}
-  
   .popup__close:before, .popup__close:after {
-    width: 28px;
-    height: 4px;
+    width: 1.4em;
+    height: 0.2em;
   }
 
 @media (max-width: 480px) {
 
     .popup__close {
-        width: 1.05em;
-        height: 0.75em;
-    }
-
-    .popup__close:before, .popup__close:after {
-        width: 1.05em;
-        height: 0.15em;
+        font-size: 15px;
     }
 
 }
