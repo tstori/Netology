@@ -179,13 +179,15 @@ body {
 .publication-links {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0;
+	margin: 0 0 14px;
 	padding: 0;
 }
 
 .publication-links li {
 	list-style-type: none;
-	margin: 0 18px 14px 0;
+	margin-right: 18px;
+
+	line-height: 1.5em;
 }
 
 .publication-links li:last-child {
@@ -257,7 +259,7 @@ body {
 
 .sidebar-title {
 	display: block;
-	margin-top: 0;
+	margin: 0 0 25px;
 	font-size: 14px;
 	font-weight: 700;
 	text-align: center;
@@ -268,7 +270,7 @@ body {
 .sidebar-title::after {
 	content: "";
 	display: block;
-	margin: 14px auto 25px;
+	margin: 14px auto 0;
 	width: 66px;
 	height: 3px;
 	background: #b59f5b;
