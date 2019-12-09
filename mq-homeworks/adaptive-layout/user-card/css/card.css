@@ -1,4 +1,4 @@
-@media (max-width: 768px), (min-width: 1300px) {
+@media (max-width: 767px), (min-width: 1301px) {
 
     
     .profile__preview::before {
@@ -10,7 +10,7 @@
 
 }
 
-@media (min-width: 767px) and (max-width: 1301px) {
+@media (min-width: 768px) and (max-width: 1300px) {
 
     .profile {
         background-color: #481bae;
