@@ -306,8 +306,7 @@ body {
 	display: block;
 	margin-bottom: 7px;
 	font-size: 12px;
-	color: #000;
-	opacity: 0.54;
+	color: #888;
 }
 
 .recent-post-title {
@@ -360,7 +359,7 @@ body {
 	background-color: #375b90;
 }
 
-.screen-text {
+.text-hidden {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -373,11 +372,13 @@ body {
 	width: 100%;
 	height: 48px;
 	padding: 17px;
+	box-sizing: border-box;
 	font-size: 13px;
 	background-color: #f4f7f6;
 	border: none;
 	border-radius: 0;
 	outline: none;
+	-webkit-appearance: none;
 }
 
 .search-field:focus {
@@ -514,6 +515,7 @@ body {
 }
 
 .social-networks {
+	padding: 29px 0;
 	background-color: #f7f4f4;
 }
 
@@ -521,12 +523,11 @@ body {
 	display: flex;
 	justify-content: center;
 	margin: 0;
-	padding: 29px 0;
 	list-style-type: none;
 }
 
 .socials-item {
-	margin: 0 30px;
+	margin: 0 15px;
 }
 
 .socials-link {
